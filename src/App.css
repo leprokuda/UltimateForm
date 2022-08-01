@@ -1,38 +1,102 @@
+body {
+  box-sizing: border-box;
+}
+
+input::placeholder {
+  font-size: 16px;
+}
+
+textarea::placeholder {
+  font-size: 16px;
+}
+
 .App {
   text-align: center;
+  font-size: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wrapper {
+  height: 700px;
+  display: flex;
+  justify-content: space-around;
+  background: radial-gradient(186.44% 431.66% at 126.16% -26.06%, #A661FF 0%, #FFE193 49.21%);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.description {
+  width: 400px;
+  height: 100px;
+  margin-top: 60px;
+  padding: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form-group {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-radius: 30px;
+  background-color: rgb(255, 255, 255);
+  padding: 35px;
 }
 
-.App-link {
-  color: #61dafb;
+.form-group__personal {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-group__bday {
+  margin-top: 20px;
+  padding-left: 5px;
+}
+
+.form-group__contacts {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.form-group__contacts-email input {
+  width: 200px;
+}
+
+.form-group__contacts-phone input {
+  width: 200px;
+}
+
+.form-group__date {
+  font-size: 16px;
+}
+
+.form-group__personal > input {
+  width: 220px;
+}
+
+.form-group__input {
+  padding: 7px;
+  margin: 5px;
+  border-radius: 10px;
+  border: 1px solid #A661FF;
+}
+
+.form-group__msg {
+  width: 400px;
+  border-radius: 10px;
+  border: 1px solid #A661FF;
+  padding: 10px;
+}
+
+.btn {
+  font-size: 18px;
+  width: 190px;
+  margin-top: 25px;
+  padding: 5px;
+  border-radius: 20px;
+  border: 1px solid #A661FF;
+  background: #e0b8f7;
+  color: rgb(68, 67, 67);
+}
+
+.error {
+  font-size: 14px;
+  color: red;
 }
