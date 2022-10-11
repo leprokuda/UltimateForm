@@ -1,16 +1,14 @@
 {
   "files": {
-    "main.css": "/UltimateForm/static/css/main.073c9b0a.css",
-    "main.js": "/UltimateForm/static/js/main.19c1e63d.js",
-    "static/js/787.238ca0e4.chunk.js": "/UltimateForm/static/js/787.238ca0e4.chunk.js",
-    "static/media/logo.svg": "/UltimateForm/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/UltimateForm/static/css/main.99558871.css",
+    "main.js": "/UltimateForm/static/js/main.c11b69fb.js",
+    "static/media/sendmail.php": "/UltimateForm/static/media/sendmail.a5fc0160f04f91a3dddd.php",
     "index.html": "/UltimateForm/index.html",
-    "main.073c9b0a.css.map": "/UltimateForm/static/css/main.073c9b0a.css.map",
-    "main.19c1e63d.js.map": "/UltimateForm/static/js/main.19c1e63d.js.map",
-    "787.238ca0e4.chunk.js.map": "/UltimateForm/static/js/787.238ca0e4.chunk.js.map"
+    "main.99558871.css.map": "/UltimateForm/static/css/main.99558871.css.map",
+    "main.c11b69fb.js.map": "/UltimateForm/static/js/main.c11b69fb.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.19c1e63d.js"
+    "static/css/main.99558871.css",
+    "static/js/main.c11b69fb.js"
   ]
 }
